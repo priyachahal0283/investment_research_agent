@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvestIQ — AI Investment Research Agent</title>
+    <meta
+      name="description"
+      content="An autonomous research agent that investigates a company and decides whether to invest — with full reasoning shown."
+    />
+
+    <!-- Same three families next/font/google was loading (Space Grotesk,
+         Inter, JetBrains Mono), now loaded the plain way since there's no
+         Next.js font optimizer in a Vite app. index.css already defines
+         --font-display / --font-body / --font-mono with these exact
+         family names, so no CSS changes were needed to match the design. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

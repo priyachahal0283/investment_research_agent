@@ -1,0 +1,23 @@
+{
+  "name": "ai-investment-research-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.5",
+    "@langchain/google-genai": "^2.2.0",
+    "@langchain/langgraph": "^1.4.9",
+    "@langchain/openai": "^1.5.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
